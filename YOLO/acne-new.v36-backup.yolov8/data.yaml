@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['acne', 'mole1', 'mole2', 'pimple', 'scar', 'spot']
+
+roboflow:
+  workspace: buyumedatasets
+  project: acne-new
+  version: 36
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/buyumedatasets/acne-new/dataset/36
